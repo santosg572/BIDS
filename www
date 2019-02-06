@@ -1,1 +1,26 @@
+http://bids.neuroimaging.io/
+
+So far
+
+https://github.com/SIMEXP/Data2Bids
+
+other than 
+
+https://github.com/cbedetti/Dcm2Bids
+
+into the
+
+dcm2bids converts one session at a time. A session is all the acquisitions between the entry and exit of the participant in the scanner.
+
+>> Tools
+
+dcm2bids_helper -d DICOM_DIR [-o OUTPUT_DIR]
+
+>> Usage
+
+How to launch dcm2bids when you have build your configuration file ? First cd in your BIDS directory.
+
+dcm2bids -d DICOM_DIR -p PARTICIPANT_ID -c CONFIG_FILE
+
+
 
