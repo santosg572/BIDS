@@ -1,0 +1,78 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "T1w",
+      "criteria": {
+        "SeriesDescription": "ANATOMICA*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-stroop",
+      "criteria": {
+        "SeriesDescription": "STROOP1*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-stroop",
+      "criteria": {
+        "SeriesDescription": "STROOP2*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-stroop",
+      "criteria": {
+        "SeriesDescription": "STROOP3*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SeriesDescription": "RESTSTATE1*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SeriesDescription": "RESTSTATE2*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SeriesDescription": "RESTSTATE3*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-Video",
+      "criteria": {
+        "SeriesDescription": "VIDEO*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-restaurative",
+      "criteria": {
+        "SeriesDescription": "RESTAURATIVE*"
+      }
+    }
+  ]
+}
