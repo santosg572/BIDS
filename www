@@ -22,5 +22,7 @@ How to launch dcm2bids when you have build your configuration file ? First cd in
 
 dcm2bids -d DICOM_DIR -p PARTICIPANT_ID -c CONFIG_FILE
 
+https://bids-standard.github.io/bids-validator/
+
 
 
