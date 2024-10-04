@@ -1,0 +1,54 @@
+(base) iMac-de-Fernando:ubuntu24_GROMACS_oct0124 santosg$ cat www.txt 
+https://bids-standard.github.io/bids-validator/
+
+A dataset_description.json file is required in the root of the dataset
+
+Extension used by file does not match allowed extensions for its suffix
+/sub-01/func/sub-01_task-stroop_run-01_bold.bval
+/sub-01/func/sub-01_task-rest_run-01_bold.bval
+/sub-01/func/sub-01_task-rest_run-03_bold.bval
+/sub-01/func/sub-01_task-stroop_run-02_bold.bval
+/sub-01/func/sub-01_task-stroop_run-03_bold.bval
+/sub-01/func/sub-01_task-rest_run-02_bold.bval
+
+A data file's JSON sidecar is missing a key listed as required.
+/sub-01/func/sub-01_task-rest_run-03_bold.nii.gz
+/sub-01/func/sub-01_task-rest_run-01_bold.nii.gz
+/sub-01/func/sub-01_task-stroop_run-02_bold.nii.gz
+/sub-01/func/sub-01_task-stroop_run-01_bold.nii.gz
+/sub-01/func/sub-01_task-rest_run-02_bold.nii.gz
+/sub-01/func/sub-01_task-stroop_run-03_bold.nii.gz
+
+
+(base) iMac-de-Fernando:ubuntu24_GROMACS_oct0124 santosg$ nano www.txt
+(base) iMac-de-Fernando:ubuntu24_GROMACS_oct0124 santosg$ nano www.txt
+(base) iMac-de-Fernando:ubuntu24_GROMACS_oct0124 santosg$ cat www.txt 
+https://bids-standard.github.io/bids-validator/
+
+A dataset_description.json file is required in the root of the dataset
+
+Extension used by file does not match allowed extensions for its suffix
+/sub-01/func/sub-01_task-stroop_run-01_bold.bval
+/sub-01/func/sub-01_task-rest_run-01_bold.bval
+/sub-01/func/sub-01_task-rest_run-03_bold.bval
+/sub-01/func/sub-01_task-stroop_run-02_bold.bval
+/sub-01/func/sub-01_task-stroop_run-03_bold.bval
+/sub-01/func/sub-01_task-rest_run-02_bold.bval
+
+A data file's JSON sidecar is missing a key listed as required.
+/sub-01/func/sub-01_task-rest_run-03_bold.nii.gz
+/sub-01/func/sub-01_task-rest_run-01_bold.nii.gz
+/sub-01/func/sub-01_task-stroop_run-02_bold.nii.gz
+/sub-01/func/sub-01_task-stroop_run-01_bold.nii.gz
+/sub-01/func/sub-01_task-rest_run-02_bold.nii.gz
+/sub-01/func/sub-01_task-stroop_run-03_bold.nii.gz
+
+ERROR: SIDECAR_KEY_REQUIRED (TASKNAME)
+
+A data file's JSON sidecar is missing a key listed as required.
+
+task-<task_label>_bold.json
+rest_run-01
+stroop_run-01
+
+  
