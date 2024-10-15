@@ -1,18 +1,22 @@
 #!/bin/bash
 
+pat="/home/jmartinez/Sujetos/Files"
+
 file="Suj"${1}
 
-mkdir ${file}
+mkdir ${pat}/${file}
 
-cd ${file}
+cd ${pat}/${file}
 
 
 dcm2bids_scaffold
 
-mv ../${1} sourcedata/.
+pwd
+
+cp -r  ${pat}/${1} sourcedata/.
 
 dcm2bids_helper -d sourcedata/${1}
 
-cat tmp_dcm2bids/helper/*.json | grep SeriesDescription > ../${file}.txt
+cat tmp_dcm2bids/helper/*.json | grep SeriesDescription > ${pat}//${file}.txt
 
 

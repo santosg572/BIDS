@@ -2,5 +2,7 @@
 
 id=$1
 
-rm -rf "Suj"${id}/sub*
-rm -rf "Suj"${id}/tmp_dcm2bids/sub*
+pati="/home/jmartinez/Sujetos/Files"
+
+rm -rf $pati/"Suj"${id}/sub*
+rm -rf $pati/"Suj"${id}/tmp_dcm2bids/sub*

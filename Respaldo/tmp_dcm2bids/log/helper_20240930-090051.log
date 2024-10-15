@@ -1,0 +1,20 @@
+2024-09-30 09:00:51.718 - INFO     - dcm2bids_helper.main | --- dcm2bids_helper start ---
+2024-09-30 09:00:51.718 - INFO     - dcm2bids_helper.main | Running the following command: /home/jmartinez/.local/bin/dcm2bids_helper -d sourcedata/200
+2024-09-30 09:00:51.777 - INFO     - dcm2bids_helper.main | OS version: Linux-5.15.0-122-generic-x86_64-with-glibc2.29
+2024-09-30 09:00:51.778 - INFO     - dcm2bids_helper.main | Python version: 3.8.10 (default, Sep 11 2024, 16:02:53) [GCC 9.4.0]
+2024-09-30 09:00:51.778 - INFO     - dcm2bids_helper.main | dcm2bids version: 3.2.0
+2024-09-30 09:00:51.876 - INFO     - dcm2bids_helper.main | dcm2niix version: v1.0.20220505
+2024-09-30 09:00:51.876 - INFO     - dcm2bids_helper.main | Checking for software update
+2024-09-30 09:00:52.205 - INFO     - tools.check_latest | Currently using the latest version of dcm2bids.
+2024-09-30 09:00:52.545 - WARNING  - tools.check_latest | A newer version exists for dcm2niix: v1.0.20240202
+2024-09-30 09:00:52.546 - WARNING  - tools.check_latest | You should update it -> https://github.com/rordenlab/dcm2niix.
+2024-09-30 09:00:52.547 - INFO     - utils.run_shell_command | Running: dcm2niix -b y -ba y -z y -f %3s_%f_%p_%t -o /home/jmartinez/Sujetos/BIDS/Respaldo/tmp_dcm2bids/helper sourcedata/200
+2024-09-30 09:00:52.594 - DEBUG    - dcm2niix_gen.execute | 
+Chris Rorden's dcm2niiX version v1.0.20220505  GCC9.4.0 x86-64 (64-bit Linux)
+
+2024-09-30 09:00:52.594 - INFO     - dcm2niix_gen.execute | Check log file for dcm2niix output
+
+2024-09-30 09:00:52.595 - INFO     - dcm2bids_helper.main | Helper files in: /home/jmartinez/Sujetos/BIDS/Respaldo/tmp_dcm2bids/helper
+
+2024-09-30 09:00:52.596 - INFO     - dcm2bids_helper.main | Log file saved at /home/jmartinez/Sujetos/BIDS/Respaldo/tmp_dcm2bids/log/helper_20240930-090051.log
+2024-09-30 09:00:52.596 - INFO     - dcm2bids_helper.main | --- dcm2bids_helper end ---
