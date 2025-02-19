@@ -1,0 +1,37 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "T1w",
+      "criteria": {
+        "SidecarFilename": "006_*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SidecarFilename": "003_*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SidecarFilename": "005_*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-attention",
+      "criteria": {
+        "SidecarFilename": "004_*"
+      }
+    }
+  ]
+}

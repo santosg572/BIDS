@@ -1,0 +1,78 @@
+{
+  "descriptions": [
+    {
+      "datatype": "anat",
+      "suffix": "T1w",
+      "criteria": {
+        "SidecarFilename": "013_*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-stroop",
+      "criteria": {
+        "SidecarFilename": "004_*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-stroop",
+      "criteria": {
+        "SidecarFilename": "007_*"
+      }
+    },
+    {
+      "id": "id_task_learning",
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-stroop",
+      "criteria": {
+        "SidecarFilename": "011_*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SidecarFilename": "005_*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SidecarFilename": "008_*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-rest",
+      "criteria": {
+        "SidecarFilename": "012_*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-Video",
+      "criteria": {
+        "SidecarFilename": "006_*"
+      }
+    },
+    {
+      "datatype": "func",
+      "suffix": "bold",
+      "custom_entities": "task-restaurative",
+      "criteria": {
+        "SidecarFilename": "010_*"
+      }
+    }
+  ]
+}
