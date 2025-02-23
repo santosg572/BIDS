@@ -1,0 +1,2 @@
+https://bids-standard.github.io/legacy-validator/
+

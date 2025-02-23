@@ -1,0 +1,2 @@
+rm Meditacion/*/*/*.bval
+ls -1R Meditacion | grep bval
